@@ -4,6 +4,10 @@ This guide is for advanced DSMLP users (both students and instructors) who want 
 
 For CUDA-enabled images, checkout [cuda.md](cuda.md).
 
+## Dev Log
+
+- 2023-12-31: successfully built image and manually pushed to docker hub 
+
 ## Introduction
 
 A Docker **image** is a snapshot of packaged applications, dependencies and the underlying operating system. Users can use the same Docker image anywhere on any machine running the Docker platform while having the same software functionality and behavior. **Github Container Registry (GHCR)** is a public container registry you can download ("pull") and upload ("push") Docker images located under the **[Packages](https://github.com/orgs/ucsd-ets/packages?repo_name=datahub-example-notebook)** section of this Github repo. In this guide, we will build a custom Docker image by modifying a **Dockerfile**, building the image on a desired platform, and publishing it on GHCR.
